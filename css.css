@@ -1,0 +1,16 @@
+.jumbotron{ /* edycja nagłówka i stopki */                  
+      background-color: #C0C0C0; /* ustawienie koloru */
+      text-align: center; /* wysrodkowanie tekstu */
+      margin-bottom: 0; /* ustawienie marginesu */
+  }
+  .img{ /* edycja zdjecia i tekstow */
+      text-align: center; /* wysrodkowanie tekstu */
+      margin-top: 20px; /* ustawienie marginesu górnego */
+  }
+  .navbar{ /* pasek z ikonami */
+    background-color: #111111; /* ustawienie koloru tła */
+    color: #EEEEEE; /* ustawienie koloru czcionki */
+  }
+  .nav-link{ /* przejscia miedzy oknami */
+
+  }

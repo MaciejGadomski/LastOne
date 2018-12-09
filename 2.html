@@ -1,0 +1,72 @@
+<!DOCTYPE html> <!-- deklaracja dokumentu html -->
+<html lang="en"> <!-- poczatek html i deklaracja jezyka -->
+<head> <!-- początek prologu dokumentu -->
+  <title>Stronka MG</title>  <!-- tytuł strony -->
+  <meta charset="utf-8"> <!-- deklaracja polskich znaków -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- dostosowanie strony do urządzeń moblinych  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> <!-- wywoładnie bootstrapa -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- wywoładnie bootstrapa -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> <!-- wywoładnie bootstrapa -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> <!-- wywoładnie bootstrapa -->
+  <link href="lightbox2-master\dist\css\lightbox.css" rel="stylesheet">
+  <link href="css.css" rel="stylesheet" type+"text/css"> <!-- odwołanie do pliku css --> 
+
+  <style> /* początek języka css */
+
+  </style> <!-- koniec języka css -->
+
+</head> <!-- koniec prologu dokumentu -->
+
+<body> <!-- początek ciała dokumentu -->
+
+<div class="jumbotron">  <!-- blok z jumbotronem(duże pudło tekst na srodku) i marginesem dolnym -->
+  <h1>Porsche</h1> <!-- tekst nagłówka -->
+</div> <!-- koniec bloku -->
+
+<nav class="navbar navbar-expand-sm navbar-dark"> <!-- wskazanie nawigacji -->
+  <a class="navbar-brand" href="#">Auta</a> <!-- hiperłącze -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <!-- do batonów -->
+    <span class="navbar-toggler-icon"></span> <!-- do batonów -->
+  </button> <!-- do batonów -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar"> <!-- do grupowania i ukrywania przyciskow blok -->
+    <ul class="navbar-nav"> <!-- lista nieuporządkowana -->
+      <li class="nav-item"> <!-- element listy -->
+        <a class="nav-link" href="menu.html">Strona główna</a> <!-- hiperłącze -->
+      </li> <!-- koniec listy -->
+
+      <div class="dropdown"> <!-- rozwijające kategorie -->
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Model
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="1.html">Cayman 718</a>
+    <a class="dropdown-item" href="2.html">911 Carrera S</a>
+    <a class="dropdown-item" href="3.html">911 Turbo</a>
+  </div>
+</div>
+
+      <li class="nav-item"> <!-- element listy -->
+        <a class="nav-link" href="kontakt.html">Kontakt</a> <!-- hiperłącze -->
+      </li> <!-- koniec listy -->
+    </ul> <!-- koniec listy nieuporządkowanej -->
+  </div>  <!-- koniec bloku -->
+</nav><!-- koniec nawigacji -->
+
+      <div class="img" > <!-- blok do tekstu i zdjecia -->
+      <h2>911 Carrera S</h2> <!-- tytłu opisu -->
+      
+      <a href="carrera.png" data-lightbox="image-1" data-title="Porsche 911 carrera s"><img src="carrera_min.png"></a>  <!-- wstawienie zdjecia z lightbox-->
+      <p><b>Porsche 911 Carrera S</b></p> <!-- napis pogrubiony -->
+      </div> <!-- koniec bloku -->
+      <p> Zawsze o krok przed wszystkimi. Porsche 911.
+          Znowu idziemy na całość. Wyznaczamy nowe standardy. Tworzymy sportowy samochód, jakiego jeszcze nie było. Samochód sportowy, który fascynuje już od pokoleń. Samochód, który jest naszą pasją. Oto przyszłość modelu 911.</p> <!-- opis-->
+      <br> <!-- kończenie linii -->
+
+<div class="jumbotron"> <!-- blok z jumbotronem(duże pudło tekst na srodku) i marginesem dolnym -->
+  <img src="porsche.png">
+  <h1>Musisz to mieć</h1> <!-- tekst stopki -->
+</div> <!-- koniec bloku -->
+
+<script src="lightbox2-master\dist\js\lightbox.js"></script>
+</body> <!-- koniec ciała dokumentu -->
+</html> <!-- koniec html -->
